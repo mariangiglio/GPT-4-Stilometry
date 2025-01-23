@@ -4,11 +4,10 @@
 **Authors:** Marco De Cristofaro, Mariangela Giglio
 
 # Table of Content
- - Abstract
  -  Corpus
  -  Risultati
  -  normalizer.py
- -  Script (con istruzioni)
+ -  Script 
 
  
 # Abstract
