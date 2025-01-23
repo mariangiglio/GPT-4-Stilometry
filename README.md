@@ -6,7 +6,10 @@
 # Table of Content
  - Abstract
  -  Corpus
- -  Script
+ -  Risultati
+ -  normalizer.py
+ -  Script (con istruzioni)
+
  
 # Abstract
 
@@ -15,6 +18,12 @@ Questo repository è parte più ampia di una ricerca che si propone di esplorare
 # Corpus
 
 Le trascrizioni dei primi tre numeri di ciascuna rivista, unitamente alle rielaborazioni di Chat GPT sono disponibili nella cartella _Corpus_. Il corpus ha un totale di circa 25mila parole per «Quindici» e 22mila circa per «Quaderni Piacentini», 6mila circa per la rielaborazione AI di «Quindici» e altrettante per la rielaborazione di «Quaderni Piacentini».
+
+# Risultati
+I grafici, le tabelle e i risultati delle analisi sono disponibili nella cartella "Risultati". All'interno della cartella sono presenti sotto cartelle corrispondenti al tipo di analisi svolta.
+
+# Normalizer
+Uno script progettato per normalizzare i file di testo nella codifica UTF-8 in modo da renderli adatti alle analisi in R. 
 
 # Script
 
@@ -56,5 +65,7 @@ Per entrambe le analisi è necessario preparare il corpus adeguatamente suddivid
 
 ## 5. POSTAG.r
 Questo script in R esegue un'analisi stilometrica su diversi testi utilizzando i pacchetti `stylo` e `udpipe`. Legge i file di testo, li annota con le parti del discorso usando `udpipe`, salva i risultati, e poi conduce un'analisi stilometrica confrontando n-grammi di parti del discorso per identificare pattern stilistici nei testi.
-There are two types of synchronization and they can complement each other:
+
+
+
 
